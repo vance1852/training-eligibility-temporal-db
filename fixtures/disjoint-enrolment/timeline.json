@@ -1,0 +1,14 @@
+[
+  {
+    "pos": 3,
+    "kind": "confirm",
+    "person": "p1",
+    "course": "early"
+  },
+  {
+    "pos": 4,
+    "kind": "confirm",
+    "person": "p1",
+    "course": "later"
+  }
+]

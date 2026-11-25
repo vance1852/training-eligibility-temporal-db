@@ -1,0 +1,11 @@
+BEGIN TRANSACTION;
+CREATE TABLE "facts" (fact_id TEXT PRIMARY KEY, person TEXT, fact_type TEXT, content TEXT, issuer TEXT, valid_from INTEGER, valid_to INTEGER, recorded INTEGER, supersedes TEXT);
+INSERT INTO "facts" VALUES('a','p1','cert','weld','union',12,35,1,NULL);
+INSERT INTO "facts" VALUES('b','p1','relation','metal','hr',12,NULL,2,NULL);
+CREATE TABLE "holds" (ticket TEXT PRIMARY KEY, person TEXT, course TEXT, state TEXT, known_at INTEGER);
+CREATE TABLE "people" (person TEXT PRIMARY KEY, home TEXT);
+INSERT INTO "people" VALUES('p1','east');
+CREATE TABLE "seats" (course TEXT PRIMARY KEY, district TEXT, course_day INTEGER, trade TEXT, industry TEXT, exclusive_from INTEGER, exclusive_to INTEGER, capacity INTEGER);
+INSERT INTO "seats" VALUES('early','east',18,'weld','metal',15,20,1);
+INSERT INTO "seats" VALUES('later','west',20,'weld','metal',20,25,1);
+COMMIT;

@@ -1,0 +1,102 @@
+[
+  {
+    "pos": 7,
+    "kind": "inspect",
+    "person": "p11",
+    "review_day": 20,
+    "known_at": 6
+  },
+  {
+    "pos": 8,
+    "kind": "confirmation_start",
+    "case": "north-p33",
+    "person": "p33",
+    "course": "lathe-a"
+  },
+  {
+    "pos": 8,
+    "kind": "confirmation_start",
+    "case": "west-p33",
+    "person": "p33",
+    "course": "lathe-b"
+  },
+  {
+    "pos": 9,
+    "kind": "correction",
+    "rows": [
+      [
+        "f7",
+        "p11",
+        "relation",
+        "metal",
+        "hr",
+        23,
+        40,
+        9,
+        "f2"
+      ],
+      [
+        "f8",
+        "p22",
+        "cert",
+        "lathe",
+        "guild",
+        24,
+        40,
+        9,
+        "f3"
+      ]
+    ]
+  },
+  {
+    "pos": 10,
+    "kind": "confirmation_finish",
+    "case": "north-p33"
+  },
+  {
+    "pos": 10,
+    "kind": "confirmation_finish",
+    "case": "west-p33"
+  },
+  {
+    "pos": 11,
+    "kind": "review",
+    "person": "p11",
+    "review_day": 20,
+    "known_at": 6
+  },
+  {
+    "pos": 12,
+    "kind": "review",
+    "person": "p11",
+    "review_day": 20,
+    "known_at": 9
+  },
+  {
+    "pos": 13,
+    "kind": "fact",
+    "row": [
+      "f9",
+      "p33",
+      "relation",
+      "retail",
+      "partner-hr",
+      12,
+      40,
+      13,
+      null
+    ]
+  },
+  {
+    "pos": 14,
+    "kind": "restart",
+    "target": "registry"
+  },
+  {
+    "pos": 15,
+    "kind": "query",
+    "course": "lathe-a",
+    "review_day": 20,
+    "known_at": 13
+  }
+]

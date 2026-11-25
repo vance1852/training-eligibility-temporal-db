@@ -1,0 +1,16 @@
+{
+  "databases": {
+    "main": {
+      "file": "main.sql",
+      "rows": {
+        "people": 3,
+        "seats": 3,
+        "facts": 6,
+        "holds": 2
+      }
+    }
+  },
+  "events": 11,
+  "documents": [],
+  "settings": {}
+}
